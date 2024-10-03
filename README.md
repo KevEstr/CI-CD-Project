@@ -1,3 +1,4 @@
+[![CI/CD Pipeline](https://github.com/KevEstr/CI-CD-Project/actions/workflows/build.yml/badge.svg)](https://github.com/KevEstr/CI-CD-Project/actions/workflows/build.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=KevEstr_CI-CD-Project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=KevEstr_CI-CD-Project) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=KevEstr_CI-CD-Project&metric=bugs)](https://sonarcloud.io/summary/new_code?id=KevEstr_CI-CD-Project)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=KevEstr_CI-CD-Project&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=KevEstr_CI-CD-Project)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=KevEstr_CI-CD-Project&metric=coverage)](https://sonarcloud.io/summary/new_code?id=KevEstr_CI-CD-Project)
