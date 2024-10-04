@@ -134,10 +134,10 @@ jobs:
     runs-on: [self-hosted, aws-ec2]
     steps:
       - name: Pull Image from Docker Hub
-        run: docker pull kevestr/gitlab:latest
+        run: sudo docker pull kevestr/gitlab:latest
 
       - name: Delete old container
-        run: docker rm -f ci-cd-project-container
+        run: sudo docker rm -f ci-cd-project-container
 
       - name: Run new container
-        run: docker run -d -p 8080:8080 --name ci-cd-project-container kevestr/gitlab:latest
+        run: sudo docker run -d -p 8080:8080 --name ci-cd-project-container kevestr/gitlab:latest
