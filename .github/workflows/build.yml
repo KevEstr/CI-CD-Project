@@ -128,12 +128,6 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }} 
           password: ${{ secrets.DOCKER_PASSWORD }}
           
-        #Coveralls
-      - name: Upload to Coveralls
-        run: mvn coveralls:report -DrepoToken=${{ secrets.COVERALLS_REPO_TOKEN }} -DjacocoReportPath=target/site/jacoco/jacoco.xml
-        env:
-          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-
   # Deployment job
   deploy:
     needs: build
