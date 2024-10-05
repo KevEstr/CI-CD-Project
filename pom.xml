@@ -39,8 +39,6 @@
 		</dependency>
 
 
-
-
 	</dependencies>
 
 	<build>
@@ -116,12 +114,6 @@
 						<groupId>javax.activation</groupId>
 						<artifactId>activation</artifactId>
 						<version>1.1.1</version>
-					</dependency>
-
-					<dependency>
-						<groupId>io.projectreactor</groupId>
-						<artifactId>reactor-core</artifactId>
-						<version>3.4.30</version> <!-- Usar la versión que corresponda a tu proyecto -->
 					</dependency>
 
 				</dependencies>
